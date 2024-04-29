@@ -158,7 +158,7 @@ header .texto .profesion {
     text-align: center;
 }
 
-.main .trabajos .thumb {
+.main .trabajos .thumb img {
     width: 100%;
     height: auto;
     max-height: 500px;
@@ -166,21 +166,21 @@ header .texto .profesion {
     opacity: .8;
 }
 
-.main .trabajos .thumb  {
+.main .trabajos .thumb img:hover {
     opacity: 1;
     -webkit-transition: all .3s ease;
     -o-transition: all .03s ease;
     transition: all .03s ease;
 }
 
-.main .trabajos  {
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre {
     text-align: center;
     margin-bottom: 15px;
     color: rgb(0, 4, 255);
     font-weight: 600;
 }
 
-.main .trabajos .contenedor {
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria {
     text-align: center;
 }
 
